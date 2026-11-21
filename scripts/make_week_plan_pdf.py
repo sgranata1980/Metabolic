@@ -21,7 +21,7 @@ DAYS = [
     ("Dienstag", "Intervalle", "190/60/90",
      "4 Eier + 2 Eiklar, 150g Spinat, 40g Haferflocken",
      "220g Putenbrust, großer Salat, 50g Avocado, 1 TL Olivenöl",
-     "220g mageres Rinderfilet, 250g Gemüse, 80g Quinoa, 1 EL Olivenöl"),
+     "250g Hähnchenbrust, 250g Gemüse, 80g Quinoa, 1 EL Olivenöl"),
     ("Mittwoch", "Lockerer Lauf", "190/60/90",
      "300g Skyr, 1 Banane, 15g Mandeln",
      "250g mageres Rinderhack, großer Salat, 80g Kichererbsen",
@@ -33,7 +33,7 @@ DAYS = [
     ("Freitag", "Krafttag", "190/60/90",
      "4 Eier + 2 Eiklar, 150g Spinat, 40g Haferflocken",
      "220g Putenbrust, großer Salat, 50g Avocado, 1 TL Olivenöl",
-     "220g mageres Rinderfilet, 250g Gemüse, 80g Quinoa, 1 EL Olivenöl"),
+     "250g Hähnchenbrust, 250g Gemüse, 80g Quinoa, 1 EL Olivenöl"),
     ("Samstag", "Krafttag", "190/60/90",
      "300g Skyr, 1 Banane, 15g Mandeln",
      "250g Garnelen, großer Salat, 60g Vollkornreis, 1 EL Olivenöl",
@@ -46,9 +46,8 @@ DAYS = [
 
 SHOPPING_LIST = [
     ("Fleisch / Fisch", [
-        "Hähnchenbrust — 550g",
+        "Hähnchenbrust — 1.050g",
         "Putenbrust — 440g",
-        "Mageres Rinderfilet — 440g",
         "Mageres Rinderhack — 500g",
         "Kabeljau — 550g",
         "Garnelen — 500g",
