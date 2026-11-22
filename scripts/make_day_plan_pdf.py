@@ -12,38 +12,40 @@ from reportlab.platypus import (
 
 # ---------------- CONFIG (change per day) ----------------
 OUT_PATH = "/home/user/Metabolic/scripts/tagesplan.pdf"
-DATE_STR = "Samstag, 21. November 2026"
-DAY_TYPE = "Krafttag"
-TARGET_P, TARGET_F, TARGET_C, TARGET_KCAL = 190, 60, 90, 1660
+DATE_STR = "Sonntag, 22. November 2026"
+DAY_TYPE = "Long Run"
+TARGET_P, TARGET_F, TARGET_C, TARGET_KCAL = 190, 60, 140, 1860
 
 MEALS = [
     {
         "name": "Frühstück",
         "items": [
-            "300g Skyr",
-            "1 Banane",
-            "15g Mandeln",
+            "400g Magerquark",
+            "150g Beeren",
+            "40g Haferflocken",
+            "10g Honig",
         ],
-        "p": 40, "f": 11, "c": 38,
+        "p": 55, "f": 5, "c": 59,
     },
     {
         "name": "Mittag",
         "items": [
-            "300g Garnelen",
-            "Großer Salat (Gurke/Tomate/Paprika, ~300g)",
-            "60g Vollkornreis",
+            "250g mageres Rinderhack",
+            "Großer Salat (~300g)",
+            "80g Kichererbsen",
+            "½ Avocado (50g)",
             "1 EL Olivenöl",
         ],
-        "p": 77, "f": 11, "c": 26,
+        "p": 75, "f": 44, "c": 27,
     },
     {
         "name": "Abend (vor 21 Uhr)",
         "items": [
-            "250g Lachs",
-            "200g Spargel oder Zucchini",
-            "50g Kartoffeln",
+            "220g Putenbrust",
+            "250g gedünstetes Gemüse",
+            "150g Süßkartoffel",
         ],
-        "p": 60, "f": 33, "c": 19,
+        "p": 72, "f": 3, "c": 43,
     },
 ]
 
