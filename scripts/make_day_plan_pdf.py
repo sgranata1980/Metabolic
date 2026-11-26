@@ -12,40 +12,39 @@ from reportlab.platypus import (
 
 # ---------------- CONFIG (change per day) ----------------
 OUT_PATH = "/home/user/Metabolic/scripts/tagesplan.pdf"
-DATE_STR = "Montag, 23. November 2026"
-DAY_TYPE = "Lockerer Lauf — Restart, diese Woche etwas gelockert"
+DATE_STR = "Donnerstag, 26. November 2026"
+DAY_TYPE = "Lockerer Lauf — diese Woche etwas gelockert"
 TARGET_P, TARGET_F, TARGET_C, TARGET_KCAL = 190, 65, 130, 1740
 
 MEALS = [
     {
         "name": "Frühstück",
         "items": [
-            "300g Magerquark",
-            "60g Haferflocken",
-            "1 Banane",
-            "10g Honig",
+            "450g Magerquark",
+            "100g Beeren",
+            "20g Walnüsse",
         ],
-        "p": 45, "f": 6, "c": 78,
+        "p": 58, "f": 15, "c": 31,
     },
     {
         "name": "Mittag",
         "items": [
-            "250g Hähnchenbrust",
+            "220g Hähnchenbrust",
             "Großer Salat (~300g)",
-            "100g Vollkornnudeln (gekocht)",
-            "½ Avocado (50g)",
+            "80g Avocado",
             "1 TL Olivenöl",
         ],
-        "p": 87, "f": 23, "c": 39,
+        "p": 73, "f": 25, "c": 15,
     },
     {
         "name": "Abend (vor 21 Uhr)",
         "items": [
-            "200g Lachs",
+            "250g Garnelen",
             "250g gedünstetes Gemüse",
-            "100g Kartoffeln",
+            "80g Vollkornreis (roh)",
+            "1 EL Olivenöl",
         ],
-        "p": 51, "f": 27, "c": 30,
+        "p": 71, "f": 18, "c": 70,
     },
 ]
 
