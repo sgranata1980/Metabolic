@@ -6,4 +6,4 @@
 
 ## Offene Punkte
 
-- (noch keine)
+- Fix-Routine gegen Nachthunger läuft seit Fr 27.11.2026 für 14 Tage (bis ca. 10./11.12.2026): täglich dieselben 3 Mahlzeiten aus `scripts/make_routine_2week_pdf.py` (200g P/65g F/140g C/~1950 kcal), siehe `scripts/routine_2wochen.pdf`. Solange diese Routine läuft: der tägliche Kickstart-Trigger (190/60/90, neue Mahlzeiten jeden Tag) wird bewusst NICHT ausgeführt — stattdessen nur kurze Textbestätigung, dass die Fix-Routine weiterläuft. Nach Ablauf (ca. 10./11.12.) wieder zur täglichen `make_day_plan_pdf.py`-Generierung zurückkehren, sofern der Nachthunger sich gebessert hat.
